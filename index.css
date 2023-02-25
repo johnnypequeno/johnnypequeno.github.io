@@ -1,0 +1,28 @@
+body{
+    background-color: antiquewhite;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 10px solid white;
+    margin-top: 3%;
+}
+
+main img {
+    width: 800px;
+    border-radius: 2%;
+    border: 10px solid white; 
+}
+
+.center {
+    text-align: center;
+
+}
+
+.main {
+    text-align: center;
+
+}
