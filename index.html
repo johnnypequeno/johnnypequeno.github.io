@@ -10,20 +10,80 @@
 
 <body>
     <header>
-        <div class="center"> 
-            <img src="./img/avatar.jpeg" alt="Avatar">
-            <h1>Johnny Pequeno</h1>
+        <div id="title"> 
+            <h1>Johnny <span>Pequeno</span></h1>
         </div>
            
+        <ul>
+            <a href="curriculo.html"><li>Currículo</li></a>
+            <a href="#services"><li>Serviços</li></a>
+            <a href="#contact"><li>Contato</li></a>
+            <a href= "https://wa.me/message/H3OPBKE4DNWSK1"><img src="img/icons8-whatsapp.svg" id="img-bottom"></a>
+        </ul>
     </header>
 
     <main> 
-        <div class="main">
-        <h1>Título de primeiro projeto</h1>
-        <h2>Texto de explicação para primeiro projeto</h2>
-        <img src="./img/CAPA VERTIGO.jpg" alt="Avatar">
-    </div>
+        <article>
+            <img src="img\IMAGEM MAIN.png" alt="Johnny Pequeno">
+        </article>
+
+        <aside>
+            <h2>Olá, vamos produzir juntos?</h2>
+            <p>
+                Sou jornalista e produtor audiovisual, com mais de 10 anos de carreira. Aqui, você vai conhecer o meu trabalho e descobrir como posso ajudar a produzir histórias de sucesso para sua marca.
+            </p>
+            <a href="curriculo.html" id="saiba-bottom"><li>Saiba mais</li></a>
+        </aside>
+       
     </main>
+
+    <!---PORTFOLIO AREA-->
+
+    <section id="services" class="portfolio-area">
+        <h2>Meu portfólio</h2>
+        <div class="blocks">
+            <div class="block">
+                <img src="img/Frame block 1.png">
+                <h3>Produção audioivisual</h3>
+            </div>
+
+            <div class="block">
+                <img src="img/Frame block 2.png">
+                <h3>Motion Graphics</h3>
+            </div>
+
+            <div class="block">
+                <img src="img/Frame block 3.png">
+                <h3>Transmissão ao vivo</h3>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!---AREA FORM-->
+
+    <div id="contact" class="area-form">
+        <h2>Entre em contato</h2>
+        <div class="form-box"> 
+            <form method="POST">
+                    <input type="text" placeholder="Nome">
+                    <input type="email" placeholder="Email">
+                    <input type="tel" placeholder="Telefone">
+                    <textarea name="Mensagem" cols="30" rows="10" placeholder="Mensagem"></textarea>
+                    <input type="submit" value="Enviar">
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <div class="social">
+        <h4> Acompanhe minhas redes sociais </h4>
+        <a href= "https://www.linkedin.com/in/johnnypequeno/"><img src="img/icons8-linkedin.svg"></a>
+        <a href= "https://wa.me/message/H3OPBKE4DNWSK1"><img src="img/icons8-whatsapp.svg"></a>
+        <a href= "https://youtube.com/produtoravertigo"><img src="img/icons8-youtube.svg"></a>
+    </div>
+    </footer>
    
     
 </body>
